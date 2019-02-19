@@ -1,0 +1,183 @@
+
+body {
+    height: 5000px;
+}
+#nav {
+    background-color: rgba(45,45,45,0.98);
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+#nav a {
+    color: rgb(253, 252, 252);
+    font-size: 14px;
+}
+.navone {
+    width:80% ;
+    display: flex;
+    justify-content: space-around;
+}
+#nav2 {
+    border-bottom: 1px solid rgb(194, 188, 188);  
+    padding: 0px;
+    margin-bottom: -48px;
+    width: 73%;
+}
+.navdiv {
+    width:100% ;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+#nav2 a {
+    color:  rgba(45,45,45,0.98);
+    font-size: 12px;
+}
+.navbar-brand {
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+.navbar-brand h4 {
+    margin-bottom: 0px;
+}
+.navul a {
+    padding-top: 15px;
+}
+.input-group {
+    width:650px ;
+}
+.input-group-text , .form-control {
+    background-color: #fff;
+    border:none;
+}
+.carousel-item img {
+    height: 630px;
+}
+#section1 {
+    display: flex;
+    flex-flow: column;
+    margin-bottom: 345px;
+}
+#section1 h1 {
+    color:  rgba(45,45,45,0.98);
+    font-size: 45px;
+}
+/* .carousel-caption {
+    align-self:flex-start;
+} */
+.row a {
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    color:  rgba(45,45,45,0.98);
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 20px;
+}
+.row img {
+    width: 68px;
+    height: 78px;
+    margin: 0 auto;
+    padding-bottom: 16px;
+}
+.container {
+    margin:0 auto ;
+    margin-top: 58px;
+    margin-bottom: 48px;
+}
+.moreproducts {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgba(199, 193, 193, 0.98);
+    border-top: 1px solid rgba(199, 193, 193, 0.98);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.moreproducts a {
+    font-size: 19px;
+}
+#sayhello {
+    display: flex;
+    margin-top: 48px;
+    justify-content: center;
+    padding-bottom: 48px;
+}
+.sayhellop {
+    width: 420px;
+    display: flex;
+    flex-flow: column;
+}
+.sayhellop a {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+.sayhellop h1 , h5 {
+    margin-bottom: 1rem;
+}
+.sayhellop h5 {
+    letter-spacing: .016em;
+    line-height: 1.4545454545;
+}
+.redeem {
+    border-top: 1px solid rgba(199, 193, 193, 0.98);
+    border-bottom: 1px solid rgba(199, 193, 193, 0.98);
+    display: flex;
+    justify-content: center;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+.trade {
+    background-image: url("./img/banner-hero-giveback-support.image.large_2x.jpg");
+    height: 516px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+}
+.tradep {
+    width:600px ;
+    align-self: center;
+    padding-left: 14%;
+}
+.tradep p {
+    font-size: 18px;
+}
+.have {
+    display: flex;
+    justify-content: center;
+    margin-top: 42px;
+}
+.have div {
+    display: flex;
+    flex-flow: column;
+    width: 282px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+.have div img {
+    width: 282px;
+    height: 172px;
+    margin-bottom: 17px;
+}
+.have p , a {
+    font-size: 17px;
+}
+.Learn {
+    margin-top: 48px;
+    background-image: url("./img/today-at-apple-workshop-banner.image.large_2x.jpg");
+    height: 516px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+}
+.learnd2 {
+    width:620px ;
+    align-self: center;
+    padding-left: 14%;
+}
+.learnd2 p {
+    font-size: 18px; 
+}
+.learnd2 a {
+    color: #6BF;
+}
