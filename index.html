@@ -1,221 +1,775 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>mapsa project</title>
-    <link rel="stylesheet" href="bootstrap.min.css">
-    <link rel="stylesheet" href="css.css">
-    <link rel="stylesheet" href="respons.css">
-	<script src="popper.min.js"></script>
-</head>
-<body>
-
-        <!-- navbar -->
-        <nav id="nav" class="container-fluid navbar navbar-expand-md">
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarcol">
-                <img src="img/list.png" alt="toggle">
-            </button>
-            <div class="collapse navbar-collapse justify-content-center"  id="navbarcol">
-                <ul class="navbar-nav navone">
-                    <li class="nav-item">
-                        <a class="nav-link" href="">icon</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#cantact">Mac</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#cantact">iPad</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#owl1a">iPhone</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#owl2a">Watch</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="">TV</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="">Music</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="">Support</a>
-                    </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="#cantact">search</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#owl1a">end</a>
-                    </li>
-                </ul>
-                
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="css.css" />
+    <link rel="stylesheet" href="respons.css" />
+    <script src="popper.min.js"></script>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav id="nav" class="container-fluid navbar navbar-expand-md">
+      <button
+        class="navbar-toggler"
+        data-toggle="collapse"
+        data-target="#navbarcol"
+      >
+        <img src="./img/equal.png" width="18px" height="23px" alt="toggle" />
+      </button>
+      <a class="imgnavhide" href=""
+        ><img src="./img/apple(1).png" width="22px" height="22px" alt=""
+      /></a>
+      <a class="imgnavhide" href=""
+        ><img src="./img/shopping-bag(1).png" width="20px" height="20px" alt=""
+      /></a>
+      <div
+        class="collapse navbar-collapse justify-content-center"
+        id="navbarcol"
+      >
+        <section id="inputnav">
+          <div class="input-group input-group-md divinputser">
+            <div class="input-group-prepend">
+              <span class="input-group-text"
+                ><img
+                  src="./img/magnifying-glass(2).png"
+                  width="20px"
+                  height="20px"
+                  alt=""
+              /></span>
             </div>
-        </nav>
-<div class="navdiv sticky-top">
-    <nav id="nav2" class="container-fluid navbar navbar-expand-md sticky-top">
-                <a class="navbar-brand" href=""><h4>Support</h4></a>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Search Sapport"
+            />
+          </div>
+        </section>
+        <hr class="hrinput" />
+        <ul class="navbar-nav navone">
+          <li class="nav-item lionepad">
+            <a class="nav-link pt-1 imgnone" href=""
+              ><img src="./img/apple(1).png" width="18px" height="18px" alt=""
+            /></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#cantact">Mac</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#cantact">iPad</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#owl1a">iPhone</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#owl2a">Watch</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">TV</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Music</a>
+          </li>
+          <li class="nav-item bordernone">
+            <a class="nav-link" href="">Support</a>
+          </li>
+          <li class="nav-item bordernone">
+            <a class="nav-link imgnone" href="#cantact"
+              ><img
+                src="./img/magnifying-glass.png"
+                width="15px"
+                height="15px"
+                alt=""
+            /></a>
+          </li>
+          <li class="nav-item bordernone">
+            <a class="nav-link imgnone" href="#owl1a"
+              ><img
+                src="./img/shopping-bag(1).png"
+                width="20px"
+                height="20px"
+                alt=""
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="navdiv sticky-top">
+      <nav id="nav2" class="container-fluid navbar navbar-expand-md sticky-top">
+        <span class="navbar-brand">Support</span>
 
-                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarcol2">
-                    <img src="img/list.png" alt="toggle">
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarcol2">
-                    <ul class="navbar-nav navul">
-                        <li class="nav-item">
-                            <a class="nav-link" href="">Communities</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#cantact">Contact Support</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-</div>
-<!-- slide -->
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarcol2"
+        >
+          <img
+            src="img/down-arrow.png"
+            width="20px"
+            height="20px"
+            alt="toggle"
+          />
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarcol2"
+        >
+          <ul class="navbar-nav navul">
+            <li class="nav-item">
+              <a class="nav-link" href="">Communities</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link communi" href="#cantact">Contact Support</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!-- slide -->
 
-<div id="demo" class="container-fluid carousel slide carousel-fade p-0 " data-ride="carousel" data-interval="4000">
-    <ul class="carousel-indicators">
+    <div
+      id="demo"
+      class="container-fluid carousel slide carousel-fade p-0 "
+      data-ride="carousel"
+      data-interval="4000"
+    >
+      <ul class="carousel-indicators">
         <li data-target="#demo" data-slide-to="0" class="active"></li>
         <li data-target="#demo" data-slide-to="1"></li>
         <li data-target="#demo" data-slide-to="2"></li>
-    </ul>
-    <div class="carousel-inner">
+      </ul>
+      <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="img/2.png" alt="carousel">
-            <div class="carousel-caption d-flex justify-content-center align-self-center">
-                <section id="section1">
-                    <h1 class=""><b>Welcome to Apple Support</b></h1> 
-                    <div class="input-group input-group-lg mt-3">
-                            <div class="input-group-prepend">
-                              <span class="input-group-text"><a href="">@</a></span>
-                            </div>
-                            <input type="text" class="form-control" placeholder="Search Sapport">
-                          </div>
-                </section>
-            </div>
+          <img class="caruimg" src="img/2.png" alt="carousel" />
+          <img class="img-fluid imgnoneslide" src="./img/aaaa.png" alt="" />
+          <div
+            class="carousel-caption d-flex justify-content-center align-self-center"
+          >
+            <section id="section1">
+              <h1 class="">Welcome to Apple Support</h1>
+              <div class="input-group input-group-lg mt-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text"
+                    ><img
+                      src="./img/magnifying-glass(2).png"
+                      width="20px"
+                      height="20px"
+                      alt=""
+                  /></span>
+                </div>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Search Sapport"
+                />
+              </div>
+            </section>
+          </div>
         </div>
         <div class="carousel-item">
-            <img src="img/2.png" alt="carousel">
-            <div class="carousel-caption d-flex justify-content-center">
-                 <section id="section1">
-                     <h1 class=""><b>Welcome to Apple Support</b></h1>
-                     <div class="input-group input-group-lg mt-3">
-                            <div class="input-group-prepend">
-                              <span class="input-group-text"><a href="">@</a></span>
-                            </div>
-                            <input type="text" class="form-control" placeholder="Search Sapport">
-                          </div>
-                 </section>
-            </div>
+          <img class="caruimg" src="img/2.png" alt="carousel" />
+          <img class="img-fluid imgnoneslide" src="./img/aaaa.png" alt="" />
+          <div class="carousel-caption d-flex justify-content-center">
+            <section id="section1">
+              <h1 class="">Welcome to Apple Support</h1>
+              <div class="input-group input-group-lg mt-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text"
+                    ><img
+                      src="./img/magnifying-glass(2).png"
+                      width="20px"
+                      height="20px"
+                      alt=""
+                  /></span>
+                </div>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Search Sapport"
+                />
+              </div>
+            </section>
+          </div>
         </div>
         <div class="carousel-item">
-            <img src="img/2.png" alt="carousel">
-            <div class="carousel-caption d-flex justify-content-center">
-                 <section id="section1">
-                    <h1 class=""><b>Welcome to Apple Support</b></h1>
-                    <div class="input-group input-group-lg mt-3">
-                            <div class="input-group-prepend">
-                              <span class="input-group-text"><a href="">@</a></span>
-                            </div>
-                            <input type="text" class="form-control" placeholder="Search Sapport">
-                          </div>
-                </section>
-            </div>
+          <img class="caruimg" src="img/2.png" alt="carousel" />
+          <img class="img-fluid imgnoneslide" src="./img/aaaa.png" alt="" />
+          <div class="carousel-caption d-flex justify-content-center">
+            <section id="section1">
+              <h1 class="">Welcome to Apple Support</h1>
+              <div class="input-group input-group-lg mt-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text"
+                    ><img
+                      src="./img/magnifying-glass(2).png"
+                      width="20px"
+                      height="20px"
+                      alt=""
+                  /></span>
+                </div>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Search Sapport"
+                />
+              </div>
+            </section>
+          </div>
         </div>
-    </div>
-    <a class="carousel-control-next" href="#demo" data-slide="next">
+      </div>
+      <!-- <a class="carousel-control-next" href="#demo" data-slide="next">
         <span class="carousel-control-next-icon"></span>
-    </a>
-    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      </a>
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
         <span class="carousel-control-prev-icon"></span>
-    </a>
-   </div> 
-    
+      </a> -->
+    </div>
+    <section id="sectionnone">
+      <h1 class="">Welcome to Apple Support</h1>
+      <div class="input-group input-group-md mt-3 secinputborder">
+        <div class="input-group-prepend">
+          <span class="input-group-text"
+            ><img
+              src="./img/magnifying-glass(2).png"
+              width="20px"
+              height="20px"
+              alt=""
+          /></span>
+        </div>
+        <input type="text" class="form-control" placeholder="Search Sapport" />
+      </div>
+    </section>
+
     <!-- section -->
-<div class="container row">
-    <a class="col-6 col-sm-6 col-md-4 col-lg-2" href=""><img src="./img/homepage_productnav_apple_watch_2x.png" alt="">Apple Watch</a>
-    <a class="col-6 col-sm-6 col-md-4 col-lg-2" href=""><img src="./img/homepage_productnav_iphone_2x.png" alt="">iPhone</a>
-    <a class="col-6 col-sm-6 col-md-4 col-lg-2" href=""><img src="./img/homepage_productnav_ipad_2x.png" alt="">iPad</a>
-    <a class="col-6 col-sm-6 col-md-4 col-lg-2" href=""><img src="./img/homepage_productnav_imac_2x.png" alt="">Mac</a>
-    <a class="col-6 col-sm-6 col-md-4 col-lg-2" href=""><img src="./img/homepage_productnav_apple-id_2x.png" alt="">Apple ID</a>
-    <a class="col-6 col-sm-6 col-md-4 col-lg-2" href=""><img src="./img/homepage_productdrawer_applemusic_2x.png" alt="">Music</a>
-</div>
-
-<!--  More products  -->
-<div class="container-fluid moreproducts">
-    <a href="">More products</a>
-</div>
-
-<!-- Say hello -->
-<div id="sayhello">
-    <div class="sayhellop">
-        <h1>Say hello to your new iPhone or Mac</h1>
-        <h5>It just takes a few steps to get set up, so you can get going.</h5>
-        <a href="">Get started with your new iPhone</a>
-        <a href=""> Get started with your new Mac</a>
+    <div class="container row seccontain">
+      <a class="col-6 col-sm-6 col-md-4 col-lg-2" href=""
+        ><img src="./img/homepage_productnav_apple_watch_2x.png" alt="" />Apple
+        Watch</a
+      >
+      <a class="col-6 col-sm-6 col-md-4 col-lg-2" href=""
+        ><img src="./img/homepage_productnav_iphone_2x.png" alt="" />iPhone</a
+      >
+      <a class="col-6 col-sm-6 col-md-4 col-lg-2" href=""
+        ><img src="./img/homepage_productnav_ipad_2x.png" alt="" />iPad</a
+      >
+      <a class="col-6 col-sm-6 col-md-4 col-lg-2" href=""
+        ><img src="./img/homepage_productnav_imac_2x.png" alt="" />Mac</a
+      >
+      <a class="col-6 col-sm-6 col-md-4 col-lg-2" href=""
+        ><img src="./img/homepage_productnav_apple-id_2x.png" alt="" />Apple
+        ID</a
+      >
+      <a class="col-6 col-sm-6 col-md-4 col-lg-2" href=""
+        ><img
+          src="./img/homepage_productdrawer_applemusic_2x.png"
+          alt=""
+        />Music</a
+      >
     </div>
-    <div class="sayhelloimg">
-        <img src="./img/featured-section-new-to-iphone_2x.png" width="400px" height="209px" alt="ergar">
-    </div>
-</div>
 
-<!-- redeem -->
-<div class="redeem">
-        <div class="sayhelloimg">
-            <img src="./img/featured-section-redeem-gift-cards_2x.png" width="400px" height="190px" alt="ergar">
-        </div>
-        <div class="sayhellop">
-            <h1>Redeem your gift card</h1>
-            <h5>Make purchases in the App Store or iTunes Store. Or upgrade your iCloud storage.</h5>
-            <a href="">Learn how to redeem</a>
-        </div>
+    <!--  More products  -->
+    <div class="container-fluid moreproducts">
+      <a href=""
+        >More products
+        <img src="./img/add.png" width="15px" height="15px" alt="" />
+      </a>
+    </div>
+
+    <!-- Say hello -->
+    <div id="sayhello">
+      <div class="sayhellop">
+        <h2>Say hello to your new iPhone or Mac</h2>
+        <p>It just takes a few steps to get set up, so you can get going.</p>
+        <a href=""
+          >Get started with your new iPhone
+          <img src="./img/right-arrow.png" width="12px" height="12px" alt=""
+        /></a>
+        <a href=""
+          >Get started with your new Mac
+          <img src="./img/right-arrow.png" width="12px" height="12px" alt=""
+        /></a>
+      </div>
+      <div class="sayhelloimg">
+        <img
+          class="img-fluid"
+          src="./img/featured-section-new-to-iphone_2x.png"
+          width="400px"
+          height="209px"
+          alt="ergar"
+        />
+      </div>
+    </div>
+
+    <!-- redeem -->
+    <div class="redeem">
+      <div class="sayhelloimg">
+        <img
+          class="img-fluid"
+          src="./img/featured-section-redeem-gift-cards_2x.png"
+          width="400px"
+          height="190px"
+          alt="ergar"
+        />
+      </div>
+      <div class="sayhellop2">
+        <h2>Redeem your gift card</h2>
+        <p>
+          Make purchases in the App Store or iTunes Store. Or upgrade your
+          iCloud storage.
+        </p>
+        <a href=""
+          >Learn how to redeem
+          <img src="./img/right-arrow.png" width="12px" height="12px" alt=""
+        /></a>
+      </div>
     </div>
 
     <!-- Trade -->
-    <div class="trade">
-    <div class="tradep">
-            <h1>Trade in with Apple GiveBack</h1>
-            <p>Turn an eligible device into credit towards a new one, or recycle it for free. It's good for you and the planet.</p>
-            <a href="">See how it works</a>
-        </div>
-   </div>
-
-   <!-- Have -->
-   <section class="have">
-        <div>
-            <img src="./img/contentlink-communities_2x.png" alt="">
-            <h2>Have a question?</h2>
-            <p>Ask everyone. Our Apple Support Community can help you find answers.</p>
-            <a href="">Ask the community</a>
-        </div>
-        <div>
-            <img src="./img/youtube-watch-learn-promo_2x.png" alt="">
-            <h2>Watch and learn</h2>
-            <p>Then play. Discover new ways to enjoy your devices with our how-to and help videos.</p>
-            <a href="">Explore our videos on YouTube</a>
-        </div>
-        <div>
-            <img src="./img/artcol-contentlink-social_2x.png" alt="">
-            <h2>Get quick tips</h2>
-            <p>And the help you need — all in one place. We're here every day to answer your questions.</p>
-            <a href="">Contact us @AppleSupport</a>
-        </div>
-   </section>
-
-   <!-- Learn -->
-   <div class="Learn">
-    <div class="learnd2">
-        <h1 class="text-white">Learn, create, and be inspired</h1>
-        <p class="text-white">Write your first line of code, capture an artful photo, or make your own music. Join hands-on sessions happening every day at every Apple Store.</p>
-        <a href="">Find Today at Apple sessions near you</a>
+    <div class="tradeimgnone">
+      <img class="img-cover" src="./img/bnd.png" alt="" />
     </div>
-</div>
+    <div class="trade">
+      <div class="tradeone">
+        <div class="tradep">
+          <h2>Trade in with Apple GiveBack</h2>
+          <p>
+            Turn an eligible device into credit towards a new one, or recycle it
+            for free. It's good for you and the planet.
+          </p>
+          <span
+            ><a href="">See how it works</a>
+            <img src="./img/right-arrow.png" width="12px" height="12px" alt=""
+          /></span>
+        </div>
+      </div>
+    </div>
 
-       
-                <!-- script -->
+    <!-- Have -->
+    <section class="have">
+      <div class="have1">
+        <img src="./img/contentlink-communities_2x.png" alt="" />
+        <div class="haveimg">
+          <h3>Have a question?</h3>
+          <p>
+            Ask everyone. Our Apple Support Community can help you find answers.
+          </p>
+          <a href=""
+            >Ask the community <img src="./img/right-arrow.png" alt=""
+          /></a>
+        </div>
+      </div>
+      <div class="have2">
+        <img src="./img/youtube-watch-learn-promo_2x.png" alt="" />
+        <div class="haveimg">
+          <h3>Watch and learn</h3>
+          <p>
+            Then play. Discover new ways to enjoy your devices with our how-to
+            and help videos.
+          </p>
+          <a href=""
+            >Explore our videos on YouTube
+            <img src="./img/right-arrow.png" alt=""
+          /></a>
+        </div>
+      </div>
+      <div class="have3">
+        <img src="./img/artcol-contentlink-social_2x.png" alt="" />
+        <div class="haveimg">
+          <h3>Get quick tips</h3>
+          <p>
+            And the help you need — all in one place. We're here every day to
+            answer your questions.
+          </p>
+          <a href=""
+            >Contact us @AppleSupport <img src="./img/right-arrow.png" alt=""
+          /></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Learn -->
+    <div class="learnimghide">
+      <img
+        src="./img/today-at-apple-workshop-banner.image.large_2x.jpg"
+        alt=""
+      />
+    </div>
+
+    <div class="Learn">
+      <div class="learnd2">
+        <h2 class="text-white">Learn, create, and be inspired</h2>
+        <p class="text-white">
+          Write your first line of code, capture an artful photo, or make your
+          own music. Join hands-on sessions happening every day at every Apple
+          Store.
+        </p>
+        <span
+          ><a href="">Find Today at Apple sessions near you </a
+          ><img src="./img/right-arrow.png" width="12px" height="12px" alt=""
+        /></span>
+      </div>
+    </div>
+
+    <!-- Want -->
+    <div class="want">
+      <div class="wanti">
+        <img src="./img/artcol-contentlink-expert_2x.png" alt="" />
+      </div>
+      <div class="divwantp">
+        <h3>Want to talk with someone?</h3>
+        <p>
+          Get help by phone, chat, or email, set up a repair, or make a Genius
+          Bar reservation.
+        </p>
+        <a href=""
+          >Contact Apple Support
+          <img src="./img/right-arrow.png" width="12px" height="12px" alt=""
+        /></a>
+      </div>
+    </div>
+    <div class="wanthr">
+      <hr />
+    </div>
+    <!-- Find -->
+    <div class="find">
+      <div class="findp">
+        <h3 class="mb-0">Find out about your coverage</h3>
+        <p>
+          <a href="">AppleCare products </a>
+          give you additional repair coverage and technical support. If you
+          already bought an AppleCare product, you can
+          <a href="">manage it online</a>.
+        </p>
+        <a href=""
+          >Check coverage for your product
+          <img src="./img/right-arrow.png" width="12px" height="12px" alt=""
+        /></a>
+      </div>
+      <div class="findi">
+        <img src="./img/applecare-products_2x.png" alt="" />
+      </div>
+    </div>
+    <div class="findhr">
+      <hr />
+    </div>
+    <!-- let -->
+    <div class="let">
+      <div class="leti">
+        <img src="./img/psp-repair_2x.png" alt="" />
+      </div>
+      <div class="letp">
+        <h3>Let's get that fixed</h3>
+        <p>
+          If your Apple device needs repairs, you can go to an Apple Store,
+          visit an Authorized Service Provider, or mail in your device. Whatever
+          you choose, we’ll make sure your device works the way it should.
+        </p>
+        <a href=""
+          >Choose a repair option
+          <img src="./img/right-arrow.png" width="12px" height="12px" alt=""
+        /></a>
+      </div>
+    </div>
+    <div class="lethr">
+      <hr />
+    </div>
+    <!-- Beware -->
+    <div class="Beware">
+      <h3>Beware of counterfeit parts</h3>
+      <p class="bewarwp">
+        Some counterfeit and third party power adapters and batteries may not be
+        designed properly and could result in safety issues. To ensure you
+        receive a genuine Apple battery during a battery replacement, we
+        recommend visiting an <a href="">Apple Store</a> or
+        <a href="">Apple Authorized Service Provider</a>. If you need a
+        replacement adapter to charge your Apple device, we recommend getting an
+        Apple power adapter.
+      </p>
+      <p class="mb-0">
+        Also non-genuine replacement displays may have compromised visual
+        quality and may fail to work correctly. Apple-certified screen repairs
+        are performed by trusted experts who use genuine Apple parts.
+      </p>
+    </div>
+    <div class="wanthr">
+      <hr />
+    </div>
+    <!-- Be aware -->
+    <div class="bediv">
+      <div class="bei">
+        <img src="./img/itunes-gift-card-trimmed_2x.jpg" alt="" />
+      </div>
+      <div class="bep">
+        <h3>Be aware of gift card scams</h3>
+        <a href=""
+          >Learn more
+          <img src="./img/right-arrow.png" width="12px" height="12px" alt=""
+        /></a>
+      </div>
+    </div>
+    <div class="wanthr">
+      <hr />
+    </div>
+    <!-- Exchange -->
+    <div class="exchange">
+      <h2>Exchange and Repair Extension Programs</h2>
+      <ul>
+        <li class="mt-0">
+          <a href=""
+            >13-inch MacBook Pro (non Touch Bar) Solid-State Drive Service
+            Program</a
+          >
+        </li>
+        <li>
+          <a href=""
+            >iPhone X Display Module Replacement Program for Touch Issues</a
+          >
+        </li>
+        <li><a href="">iPhone 8 Logic Board Replacement Program</a></li>
+        <li>
+          <a href="">Keyboard Service Program for MacBook and MacBook Pro</a>
+        </li>
+        <li>
+          <a href=""
+            >13-inch MacBook Pro (non Touch Bar) Battery Replacement Program</a
+          >
+        </li>
+        <li><a href="">iPhone 7 Repair Program for "No Service" Issues</a></li>
+        <li><a href="">iPhone 6s Program for Unexpected Shutdown Issues</a></li>
+        <li><a href="">Multi-Touch Repair Program for iPhone 6 Plus</a></li>
+        <li><a href="">Apple AC Wall Plug Adapter Recall Program</a></li>
+        <li><a href="">Beats Pill XL Speaker Recall Program</a></li>
+        <li><a href="">All Programs</a></li>
+      </ul>
+    </div>
+    <!-- footer -->
+    <div class="footera">
+      <div class="footerbg">
+        <p class="">
+          <a href=""
+            ><img
+              class="mb-1"
+              src="./img/apple(2).png"
+              width="15px"
+              height="15px"
+              alt=""/></a
+          ><img
+            class="ml-1 mr-1"
+            src="./img/right-arrow(4).png"
+            width="12px"
+            height="12px"
+            alt=""
+          />
+          Support
+        </p>
+        <footer id="footer" class="d-flex justify-content-center">
+          <!-- <div class="row"> -->
+          <nav id="footernav1" class="container-fluid navbar navbar-expand-md">
+            <button
+              class="navbar-toggler"
+              data-toggle="collapse"
+              data-target="#navbarco3"
+            >
+              Get Support
+            </button>
+            <div class="collapse navbar-collapse" id="navbarco3">
+              <ul id="navfooter1" class="navbar-nav navone1">
+                <li class="nav-item">
+                  <span class="lifirstspan">Get Support</span>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#cantact"><span>iPhone</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#cantact"><span>iPad</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#owl1a"><span>Watch</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#owl2a"><span>Mac</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href=""><span>Music</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href=""><span>Apple ID</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href=""><span>Apps</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#cantact"
+                    ><span>Support Site Map</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+          <nav id="footernav2" class="container-fluid navbar navbar-expand-md">
+            <button
+              class="navbar-toggler"
+              data-toggle="collapse"
+              data-target="#navbarco4"
+            >
+              Service & Repair
+            </button>
+            <div class="collapse navbar-collapse" id="navbarco4">
+              <ul id="navfooter2" class="navbar-nav navone2">
+                <li class="nav-item">
+                  <span class="lifirstspan">Service & Repair</span>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#cantact"
+                    ><span>Apple Repair Options</span></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#cantact"
+                    ><span>Service and Repair Information</span></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#owl1a"
+                    ><span>AppleCare Products</span></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#owl2a"
+                    ><span>Hardware Warranties</span></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href=""
+                    ><span>Software License Agreements</span></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href=""
+                    ><span>Complimentary Support</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+          <nav id="footernav3" class="container-fluid navbar navbar-expand-md">
+            <button
+              class="navbar-toggler"
+              data-toggle="collapse"
+              data-target="#navbarco5"
+            >
+              Resources
+            </button>
+            <div class="collapse navbar-collapse" id="navbarco5">
+              <ul id="navfooter3" class="navbar-nav navone3">
+                <li class="nav-item">
+                  <span class="lifirstspan">Resources</span>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#cantact"
+                    ><span>Downloads & Updates</span></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#cantact"><span>Manuals</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#owl1a"><span>Tech Specs</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#owl2a"
+                    ><span>Accessibility</span></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href=""><span>Education Program</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href=""><span>Business</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href=""
+                    ><span>Apple Support Videos</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+          <nav id="footernav4" class="container-fluid navbar navbar-expand-md">
+            <button
+              class="navbar-toggler"
+              data-toggle="collapse"
+              data-target="#navbarco6"
+            >
+              Connect
+            </button>
+            <div class="collapse navbar-collapse" id="navbarco6">
+              <ul id="navfooter4" class="navbar-nav navone4">
+                <li class="nav-item">
+                  <span class="lifirstspan">Connect</span>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#cantact"
+                    ><span>Contact Us</span></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#cantact"
+                    ><span>Phone Numbers</span></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#owl1a"><span>My Support</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#owl2a"
+                    ><span>Apple Support App</span></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href=""><span>@Apple Support</span></a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <!-- </div> -->
+        </footer>
+        <section class="footersec">
+          <div class="divsection">
+            <p class="ponefooter pr-2">
+              Copyright © 2019 Apple Inc. All rights reserved.
+            </p>
+            <p><a class="bonone" href="">Privacy Policy</a></p>
+            <p><a href="">Terms of Use</a></p>
+            <p><a href="">Sales and Refunds</a></p>
+            <p><a href="">Site Map</a></p>
+            <div class="ml-auto">
+              <p>
+                <a class="bonone" href=""
+                  ><img
+                    src="./img/united-states.png"
+                    width="15px"
+                    height="15px"
+                    alt=""
+                  />
+                  United States</a
+                >
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <!-- script -->
 
     <script src="jquery-3.3.1.min.js"></script>
     <script src="bootstrap.min.js"></script>
-</body>
+  </body>
 </html>
