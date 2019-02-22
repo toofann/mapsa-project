@@ -1,257 +1,283 @@
 @media screen and (max-width: 1080px) {
-.navone , #nav2 {
-     width:100% ;
- }
- .navbar-brand {
-     margin-left: 50px;
- }
- .communi {
-     margin-right: 50px;
- }
- #section1 h1 {
-    font-size:39px; 
- }
- .input-group {
-     width:570px ;
- }
- #section1 {
-     margin-bottom: 380px;
- }
- #sayhello {
-     flex-flow: column;
- }
- .sayhellop {
-     margin: 0 auto;
-     text-align: center;
-     width:80% ;
- }
- .sayhellop h2 {
-    font-size: 32px;
- }
- .sayhellop p {
-    font-size: 20px;
- }
- .sayhellop a{
-    font-size: 20px;
- }
- .sayhelloimg {
+  .navone,
+  #nav2 {
+    width: 100%;
+  }
+  .navbar-brand {
+    margin-left: 50px;
+  }
+  .communi {
+    margin-right: 50px;
+  }
+  #section1 h1 {
+    font-size: 39px;
+  }
+  .input-group {
+    width: 570px;
+  }
+  #section1 {
+    margin-bottom: 380px;
+  }
+  #sayhello {
+    flex-flow: column;
+  }
+  .sayhellop {
     margin: 0 auto;
-     margin-top: 48px;
-     text-align: center;
- }
- .redeem {
-     flex-flow: column-reverse;
- }
- .sayhellop2 {
-     margin: 0 auto;
-     text-align: center;
-     width: 80%;
- }
- .sayhellop2 h2 {
+    text-align: center;
+    width: 80%;
+  }
+  .sayhellop h2 {
     font-size: 32px;
- }
-.sayhellop2 p {
+  }
+  .sayhellop p {
     font-size: 20px;
-}
-.sayhellop2 a {
+  }
+  .sayhellop a {
     font-size: 20px;
-}
-.tradep {
-width:300px ;
-padding-left: 0px;
-}
-.tradep h2 {
+  }
+  .sayhelloimg {
+    margin: 0 auto;
+    margin-top: 48px;
+    text-align: center;
+  }
+  .redeem {
+    flex-flow: column-reverse;
+  }
+  .sayhellop2 {
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+  }
+  .sayhellop2 h2 {
+    font-size: 32px;
+  }
+  .sayhellop2 p {
+    font-size: 20px;
+  }
+  .sayhellop2 a {
+    font-size: 20px;
+  }
+  .tradep {
+    width: 300px;
+    padding-left: 0px;
+  }
+  .tradep h2 {
     font-size: 33px;
-}
-.trade {
-    max-width:1080px;
+  }
+  .trade {
+    max-width: 1080px;
     max-height: 412px;
-}
-    .have {
-        flex-flow: column;
-        width: 100%;
-        margin-top: 70px;
-    }
-    .have1 , .have2 , .have3 {
-         margin: 0 auto !important;
-        flex-flow: row !important;
-        width: 100%;
-        justify-content: center;
-
-    }
-    .have2 , .have3 {
-        margin-top: 32px !important;
-    }
-    .have div {
-        width: 700px !important;
-        margin-left: 20px;
-    }
-    .have1 img , .have2 img , .have3 img {
-        width: 228px !important;
-        height: 140px !important;
-        margin-bottom: 17px !important;
-    }
-    .have h3 {
-        font-size: 28px;
-    }
-    .haveimg a img {
-        width: 12px !important;
-        height: 12px !important;
-        margin-bottom: 0px;
-    }
-    .learnd2 {
-        padding-left: 2%;
-        width: 350px;
-    }
-    .findp {
-        margin-left: 20px;
-    }
-    .caruimg {
-        margin-left: -30%;
-    }
-
+  }
+  .have {
+    flex-flow: column;
+    width: 100%;
+    margin-top: 70px;
+  }
+  .have1,
+  .have2,
+  .have3 {
+    margin: 0 auto !important;
+    flex-flow: row !important;
+    width: 100%;
+    justify-content: center;
+  }
+  .have2,
+  .have3 {
+    margin-top: 32px !important;
+  }
+  .have div {
+    width: 700px !important;
+    margin-left: 20px;
+  }
+  .have1 img,
+  .have2 img,
+  .have3 img {
+    width: 228px !important;
+    height: 140px !important;
+    margin-bottom: 17px !important;
+  }
+  .have h3 {
+    font-size: 28px;
+  }
+  .haveimg a img {
+    width: 12px !important;
+    height: 12px !important;
+    margin-bottom: 0px;
+  }
+  .learnd2 {
+    padding-left: 2%;
+    width: 350px;
+  }
+  .findp {
+    margin-left: 20px;
+  }
+  .caruimg {
+    margin-left: -30%;
+  }
+  .divsection {
+    flex-flow: column;
+  }
+  .usadiv {
+    margin-left: 0px !important;
+  }
 }
 @media screen and (max-width: 810px) {
-    .Beware {
-        width: 100% !important;
-        margin-left:auto !important;
-        margin-right: auto !important;
-        padding-left: 20px;
-        padding-right: 20px;
-        
-    }
+  .Beware {
+    width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 @media screen and (max-width: 766px) {
-    #nav {
-        padding-left: 2px;
-        padding-top: 7px;
-        padding-bottom: 7px;
-    }
-    #inputnav {
-        display: inherit;
-    }
-    .hrinput {
-        display: inherit;
-    }
-    .imgnone {
-        display: none;
-    }
-    .imgnavhide {
-        display: inherit;
-      }
-    .navbar-brand {
-        margin-left: 15px;
-    } 
-    .navone {
-        width: 78%;
-        margin: 0 auto;
-    }
-    #nav a {
-        font-size: 18px;
-    }
-    .navone li {
-        border-bottom: 1px solid  rgb(82, 81, 81);
-      }
-      .lionepad , .bordernone {
-          border: none !important;
-      }
-      .navul {
-          width: 88%;
-          margin: 0 auto;
-      }
-      .navul a {
-          font-size: 15px !important;
-          padding-left: 15px;
-          padding-bottom: 15px;
-      }
-      .communi {
-          border-top: 1px solid rgb(194, 188, 188);
-          margin-bottom: 30px;
-      }
-      .learnd2 {
-          width: 350px;
-          margin-left: 20px;
-      }
-      .learnd2 h2 {
-          font-size: 32px;
-      }
-      .want , .let {
-          flex-flow: column;
-      }
-      .find {
-          flex-flow: column-reverse;
-      }
-      .wanti , .findi , .leti {
-          margin-left: auto;
-          margin-right: auto;
-      }
-      .divwantp , .findp , .letp {
-          width: 100% !important;
-          margin-left: 20px;
-          margin-right: 20px;
-          padding-left: 20px;
-          padding-right:20px ;
-      }
-      .findp {
-          margin-top: 32px;
-      }
-      .exchange ul {
-          padding-left: 20px !important;
-          padding-right: 20px;
-      }
-
+  #nav {
+    padding-left: 2px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+  #inputnav {
+    display: inherit;
+  }
+  .hrinput {
+    display: inherit;
+  }
+  .imgnone {
+    display: none;
+  }
+  .imgnavhide {
+    display: inherit;
+  }
+  .navbar-brand {
+    margin-left: 15px;
+  }
+  .navone {
+    width: 78%;
+    margin: 0 auto;
+  }
+  #nav a {
+    font-size: 18px;
+  }
+  .navone li {
+    border-bottom: 1px solid rgb(82, 81, 81);
+  }
+  .lionepad,
+  .bordernone {
+    border: none !important;
+  }
+  .navul {
+    width: 88%;
+    margin: 0 auto;
+  }
+  .navul a {
+    font-size: 15px !important;
+    padding-left: 15px;
+    padding-bottom: 15px;
+  }
+  .communi {
+    border-top: 1px solid rgb(194, 188, 188);
+    margin-bottom: 30px;
+  }
+  .learnd2 {
+    width: 350px;
+    margin-left: 20px;
+  }
+  .learnd2 h2 {
+    font-size: 32px;
+  }
+  .want,
+  .let {
+    flex-flow: column;
+  }
+  .find {
+    flex-flow: column-reverse;
+  }
+  .wanti,
+  .findi,
+  .leti {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .divwantp,
+  .findp,
+  .letp {
+    width: 100% !important;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .findp {
+    margin-top: 32px;
+  }
+  .exchange ul {
+    padding-left: 20px !important;
+    padding-right: 20px;
+  }
+  #footer {
+    flex-flow: column;
+  }
+  #footernav1 , #footernav2 , #footernav3 , #footernav4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgb(51, 50, 50);
+    width: 100%;
+  }
+  #footernav1 button , #footernav2 button , #footernav3 button , #footernav4 button {
+    padding-left: 0px;
+  }
 }
 @media screen and (max-width: 724px) {
-   #demo {
-       display: none;
-   }
-    #sectionnone {
-        display: inherit;
-    }
-    .imgnoneslide {
-        display: none;
-    }
-    .sayhellop h2 {
-       font-size: 26px;
-    }
-    .sayhellop p {
-       font-size: 18px;
-       margin-bottom: 8px;
-    }
-    .sayhellop a{
-       font-size: 18px;
-    }
-    .sayhelloimg img {
-        min-width: 288px;
-        min-height: 150px;
-    }
-    .sayhellop2 h2 {
-       font-size: 26px;
-    }
-   .sayhellop2 p {
-       font-size: 18px;
-   }
-   .sayhellop2 a {
-       font-size: 18px;
-   }
-   .trade {
-       background-image: none;
-       height: 129px !important;
-       margin-top: 32px;
-   }
-   .tradeone {
-       width: 90%;
-   }
-   .tradep {
-       width: 100%;
-   }
-   .tradep h2 {
-       font-size: 28px;
-   }
-   .redeem {
-       border-bottom: none;
-   }
-   .tradeimgnone {
+  #demo {
+    display: none;
+  }
+  #sectionnone {
+    display: inherit;
+  }
+  .imgnoneslide {
+    display: none;
+  }
+  .sayhellop h2 {
+    font-size: 26px;
+  }
+  .sayhellop p {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  .sayhellop a {
+    font-size: 18px;
+  }
+  .sayhelloimg img {
+    min-width: 288px;
+    min-height: 150px;
+  }
+  .sayhellop2 h2 {
+    font-size: 26px;
+  }
+  .sayhellop2 p {
+    font-size: 18px;
+  }
+  .sayhellop2 a {
+    font-size: 18px;
+  }
+  .trade {
+    background-image: none;
+    height: 129px !important;
+    margin-top: 32px;
+  }
+  .tradeone {
+    width: 90%;
+  }
+  .tradep {
+    width: 100%;
+  }
+  .tradep h2 {
+    font-size: 28px;
+  }
+  .redeem {
+    border-bottom: none;
+  }
+  .tradeimgnone {
     display: inherit;
     width: 734px;
     height: 333px;
@@ -260,95 +286,98 @@ padding-left: 0px;
     width: 734px;
     height: 333px;
   }
-  .have1 img , .have2 img , .have3 img {
+  .have1 img,
+  .have2 img,
+  .have3 img {
     width: 375px !important;
     height: 229px !important;
     margin-bottom: 17px !important;
     margin: 0 auto;
     margin-bottom: 17px !important;
-}
-.have1 , .have2 , .have3 {
+  }
+  .have1,
+  .have2,
+  .have3 {
     flex-flow: column !important;
-}
-.haveimg a img {
+  }
+  .haveimg a img {
     width: 12px !important;
     height: 12px !important;
     margin-bottom: 0px !important;
-}
-.have div {
+  }
+  .have div {
     width: 96% !important;
     margin-left: 20px;
     margin-right: 20px;
-}
-.Learn {
-    background-image:none;
-}
-.learnimghide {
+  }
+  .Learn {
+    background-image: none;
+  }
+  .learnimghide {
     display: inherit;
-}
-.Learn {
+  }
+  .Learn {
     width: 100%;
     height: 100%;
-}
-.learnd2 h2 {
+  }
+  .learnd2 h2 {
     color: rgb(17, 16, 16) !important;
-}
-.learnd2 p {
-color: #333 !important;
-}
-.learnd2 {
+  }
+  .learnd2 p {
+    color: #333 !important;
+  }
+  .learnd2 {
     width: 100%;
-}
-
+  }
 }
 @media screen and (max-width: 568px) {
-    #demo {
-        display: inherit;
-    }
-    #section1 {
-        display: none !important;
-    }
-    .imgnoneslide {
-        display: inherit;
-        min-height: 270px;
-        min-width: 475px;
-    }
-    .caruimg {
-        display: none;
-    }
-    .carousel-indicators li {
-        width: 15px;
-        height: 15px;
-    }
-    #sectionnone {
-        margin-top: 40px;
-    }
-    .row {
-        width: auto;
-      }
-   .tradeimgnone img {
-       margin-left:-15% ;
-    }
-    .learnimghide {
-        margin-left: -30%;
-    }
-    .bediv {
-        flex-flow: column;
-    }
-    .bei {
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        display: flex;
-        justify-content: center;
-    }
-    .bei img {
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .bep {
-        width: 100%;
-        margin-left:auto ;
-        margin-right: auto;
-    }
+  #demo {
+    display: inherit;
+  }
+  #section1 {
+    display: none !important;
+  }
+  .imgnoneslide {
+    display: inherit;
+    min-height: 270px;
+    min-width: 475px;
+  }
+  .caruimg {
+    display: none;
+  }
+  .carousel-indicators li {
+    width: 15px;
+    height: 15px;
+  }
+  #sectionnone {
+    margin-top: 40px;
+  }
+  .row {
+    width: auto;
+  }
+  .tradeimgnone img {
+    margin-left: -15%;
+  }
+  .learnimghide {
+    margin-left: -30%;
+  }
+  .bediv {
+    flex-flow: column;
+  }
+  .bei {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+  }
+  .bei img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .bep {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

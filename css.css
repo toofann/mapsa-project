@@ -1,18 +1,27 @@
 body {
-font-size: 17px;
-line-height: 1.5294717647;
-font-weight: 400;
-background-color: white;
-color: #333;
-font-style: normal;
+  font-size: 17px;
+  line-height: 1.5294717647;
+  font-weight: 400;
+  background-color: white;
+  color: #333;
+  font-style: normal;
 }
 a:hover {
   color: #007bff;
 }
+a:active ,a:focus
+{
+	outline: none;
+}
+button:active ,button:focus
+{
+	outline: none;
+}
 .imgnavhide {
   display: none;
 }
-#inputnav span , #inputnav input  {
+#inputnav span,
+#inputnav input {
   background-color: rgb(91, 92, 94);
 }
 #inputnav div {
@@ -25,7 +34,7 @@ a:hover {
   display: none;
 }
 #inputnav {
-  width:100% ;
+  width: 100%;
   margin-top: 5px;
   display: none;
 }
@@ -66,8 +75,8 @@ a:hover {
   font-size: 12px;
 }
 #nav2 a:focus {
-  outline: 3px solid rgba(131,192,253,0.5);
-outline-offset: 1px;
+  outline: 3px solid rgba(131, 192, 253, 0.5);
+  outline-offset: 1px;
 }
 .navbar-brand {
   padding-top: 10px;
@@ -100,7 +109,6 @@ outline-offset: 1px;
 .carousel-indicators .active {
   background-color: rgb(255, 255, 255);
   border: 2px solid rgb(173, 41, 41);
-
 }
 .carousel-indicators li {
   width: 25px;
@@ -136,7 +144,7 @@ outline-offset: 1px;
 #sectionnone input {
   padding-left: 0px;
 }
-#section1 input::placeholder  {
+#section1 input::placeholder {
   opacity: 0.4;
   font-size: 23px;
 }
@@ -152,10 +160,11 @@ outline-offset: 1px;
   font-size: 47px;
   line-height: 1.0416666667;
   font-weight: 500;
-  letter-spacing: .006em;
-  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial","sans-serif";
-visibility: visible;
-color: #333;
+  letter-spacing: 0.006em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", "sans-serif";
+  visibility: visible;
+  color: #333;
 }
 .seccontain {
   margin-bottom: 0px !important;
@@ -196,12 +205,13 @@ color: #333;
 }
 .moreproducts a {
   font-size: 17px;
-line-height: 1.5294717647;
-font-weight: 400;
-letter-spacing: -0.021em;
-font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial","sans-serif";
-color: #0070c9;
-font-style: normal;
+  line-height: 1.5294717647;
+  font-weight: 400;
+  letter-spacing: -0.021em;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", "sans-serif";
+  color: #0070c9;
+  font-style: normal;
 }
 .moreproducts a:hover {
   text-decoration: none;
@@ -216,10 +226,11 @@ font-style: normal;
   font-size: 40px;
   line-height: 1.05;
   font-weight: 500;
-  letter-spacing: .008em;
-  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial","sans-serif";
-  margin-bottom: .35em;
-  margin-bottom: .28em;
+  letter-spacing: 0.008em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", "sans-serif";
+  margin-bottom: 0.35em;
+  margin-bottom: 0.28em;
 }
 .sayhellop p {
   font-size: 22px;
@@ -235,7 +246,7 @@ font-style: normal;
   font-size: 22px;
   line-height: 1.4545454545;
   font-weight: 300;
-  letter-spacing: .016em;
+  letter-spacing: 0.016em;
 }
 .sayhellop2 {
   width: 420px;
@@ -252,23 +263,24 @@ font-style: normal;
   margin-bottom: 5px;
 }
 .sayhellop2 a:focus {
-  outline: 3px solid rgba(131,192,253,0.5);
-outline-offset: 1px;
+  outline: 3px solid rgba(131, 192, 253, 0.5);
+  outline-offset: 1px;
 }
 .sayhellop a:focus {
-  outline: 3px solid rgba(131,192,253,0.5);
-outline-offset: 1px;
+  outline: 3px solid rgba(131, 192, 253, 0.5);
+  outline-offset: 1px;
 }
 .sayhellop2 h2 {
   font-size: 40px;
   line-height: 1.05;
   font-weight: 500;
-  letter-spacing: .008em;
-  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial","sans-serif";
-  margin-bottom: .28em;
+  letter-spacing: 0.008em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", "sans-serif";
+  margin-bottom: 0.28em;
 }
 .sayhellop2 p {
-  margin-bottom: .25em;
+  margin-bottom: 0.25em;
   font-size: 22px;
   color: rgb(88, 85, 85);
 }
@@ -284,8 +296,8 @@ outline-offset: 1px;
   padding-bottom: 48px;
 }
 .redeem a:focus {
-  outline: 3px solid rgba(131,192,253,0.5);
-outline-offset: 1px;
+  outline: 3px solid rgba(131, 192, 253, 0.5);
+  outline-offset: 1px;
 }
 .tradeimgnone {
   display: none;
@@ -300,8 +312,8 @@ outline-offset: 1px;
   display: flex;
 }
 .trade a:focus {
-  outline: 3px solid rgba(131,192,253,0.5);
-outline-offset: 1px;
+  outline: 3px solid rgba(131, 192, 253, 0.5);
+  outline-offset: 1px;
 }
 .tradep {
   width: 450px;
@@ -322,15 +334,17 @@ outline-offset: 1px;
   font-size: 17px;
   line-height: 1.5294717647;
   font-weight: 400;
-  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial","sans-serif";
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", "sans-serif";
 }
 .tradep h2 {
   margin-bottom: 0;
-font-size: 40px;
-line-height: 1.05;
-font-weight: 500;
-letter-spacing: .008em;
-font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial","sans-serif";
+  font-size: 40px;
+  line-height: 1.05;
+  font-weight: 500;
+  letter-spacing: 0.008em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", "sans-serif";
 }
 .have {
   display: flex;
@@ -342,14 +356,15 @@ font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial
   margin-left: 0;
   margin-right: 0;
   margin-top: 8px;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
   margin-bottom: 8px;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
   font-size: 32px;
   line-height: 1.09375;
   font-weight: 500;
-  letter-spacing: .011em;
-  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial","sans-serif";
+  letter-spacing: 0.011em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", "sans-serif";
 }
 .have div {
   display: flex;
@@ -375,19 +390,20 @@ font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial
   margin-top: 12px;
   margin-bottom: 0px;
   font-size: 17px;
-line-height: 1.5294717647;
-font-weight: 400;
-letter-spacing: -0.021em;
-font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial","sans-serif";
-color: #333;
-font-style: normal;
+  line-height: 1.5294717647;
+  font-weight: 400;
+  letter-spacing: -0.021em;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", "sans-serif";
+  color: #333;
+  font-style: normal;
 }
-.have a{
+.have a {
   margin-top: 12px;
 }
 .have a:focus {
-  outline: 3px solid rgba(131,192,253,0.5);
-outline-offset: 1px;
+  outline: 3px solid rgba(131, 192, 253, 0.5);
+  outline-offset: 1px;
 }
 .Learn {
   margin-top: 48px;
@@ -416,59 +432,62 @@ outline-offset: 1px;
 }
 .learnd2 h2 {
   margin-bottom: 0;
-font-size: 40px;
-line-height: 1.05;
-font-weight: 500;
-letter-spacing: .008em;
-font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial","sans-serif";
+  font-size: 40px;
+  line-height: 1.05;
+  font-weight: 500;
+  letter-spacing: 0.008em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", "sans-serif";
 }
 .learnd2 p {
   font-size: 18px;
   margin-top: 12px;
   margin-left: auto;
-margin-right: auto;
-margin-bottom: 16px;
-font-size: 17px;
-line-height: 1.5294717647;
-font-weight: 400;
-letter-spacing: -0.021em;
-font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial","sans-serif";
+  margin-right: auto;
+  margin-bottom: 16px;
+  font-size: 17px;
+  line-height: 1.5294717647;
+  font-weight: 400;
+  letter-spacing: -0.021em;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", "sans-serif";
 }
 .learnd2 span a {
-  color: #6BF;
+  color: #6bf;
 }
 .learnd2 a:focus {
-  outline: 3px solid rgba(131,192,253,0.5);
-outline-offset: 1px;
+  outline: 3px solid rgba(131, 192, 253, 0.5);
+  outline-offset: 1px;
 }
 .divwantp {
   display: flex;
   flex-flow: column;
-  width:450px ;
+  width: 450px;
 }
 .divwantp p {
   margin-top: 6px;
   margin-bottom: 0px;
   font-size: 17px;
 
-line-height: 1.5294717647;
+  line-height: 1.5294717647;
 
-font-weight: 400;
+  font-weight: 400;
 
-letter-spacing: -0.021em;
+  letter-spacing: -0.021em;
 
-font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial","sans-serif";
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", "sans-serif";
 
-color: #333;
+  color: #333;
 
-font-style: normal;
+  font-style: normal;
 }
 .divwantp a {
   margin-top: 12px;
 }
 .divwantp a:focus {
-  outline: 3px solid rgba(131,192,253,0.5);
-outline-offset: 1px;
+  outline: 3px solid rgba(131, 192, 253, 0.5);
+  outline-offset: 1px;
 }
 .divwantp h3 {
   margin-top: 8px;
@@ -476,14 +495,15 @@ outline-offset: 1px;
   vertical-align: middle;
   margin-left: 0;
   margin-right: 0;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
   margin-bottom: 8px;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
   font-size: 32px;
   line-height: 1.09375;
   font-weight: 500;
-  letter-spacing: .011em;
-  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial","sans-serif";
+  letter-spacing: 0.011em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", "sans-serif";
 }
 .wanti img {
   width: 375px;
@@ -506,8 +526,8 @@ outline-offset: 1px;
   padding-bottom: 37px;
 }
 .find a:focus {
-  outline: 3px solid rgba(131,192,253,0.5);
-outline-offset: 1px;
+  outline: 3px solid rgba(131, 192, 253, 0.5);
+  outline-offset: 1px;
 }
 .findp {
   width: 480px;
@@ -517,22 +537,24 @@ outline-offset: 1px;
 .findp p {
   margin-top: 8px;
   font-size: 17px;
-line-height: 1.5294717647;
-font-weight: 400;
-letter-spacing: -0.021em;
-font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial","sans-serif";
-color: #333;
-font-style: normal;
+  line-height: 1.5294717647;
+  font-weight: 400;
+  letter-spacing: -0.021em;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", "sans-serif";
+  color: #333;
+  font-style: normal;
 }
 .findp h3 {
   display: inline-block;
-vertical-align: middle;
-margin-bottom: 0;
-font-size: 32px;
-line-height: 1.09375;
-font-weight: 500;
-letter-spacing: .011em;
-font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial","sans-serif";
+  vertical-align: middle;
+  margin-bottom: 0;
+  font-size: 32px;
+  line-height: 1.09375;
+  font-weight: 500;
+  letter-spacing: 0.011em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", "sans-serif";
 }
 .findi img {
   width: 328px;
@@ -547,8 +569,8 @@ font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial
   justify-content: center;
 }
 .leti img {
-  width:400px ;
-  height:200px ;
+  width: 400px;
+  height: 200px;
   margin-bottom: 17px;
 }
 .letp {
@@ -557,11 +579,12 @@ font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial
   flex-flow: column;
 }
 .letp h3 {
- font-size: 32px;
-line-height: 1.09375;
-font-weight: 500;
-letter-spacing: .011em;
-font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial","sans-serif";
+  font-size: 32px;
+  line-height: 1.09375;
+  font-weight: 500;
+  letter-spacing: 0.011em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", "sans-serif";
 }
 .letp p {
   margin-top: 0px;
@@ -571,12 +594,12 @@ font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial
   margin-top: 12px;
 }
 .letp a:focus {
-  outline: 3px solid rgba(131,192,253,0.5);
-outline-offset: 1px;
+  outline: 3px solid rgba(131, 192, 253, 0.5);
+  outline-offset: 1px;
 }
 .lethr {
   width: 981px;
-  margin:0 auto ;
+  margin: 0 auto;
   margin-top: 48px;
 }
 .lethr hr {
@@ -593,8 +616,9 @@ outline-offset: 1px;
   font-size: 24px;
   line-height: 1.2084933333;
   font-weight: 500;
-  letter-spacing: .015em;
-  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial","sans-serif";
+  letter-spacing: 0.015em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", "sans-serif";
   margin-bottom: 12px;
   margin-top: 32px;
 }
@@ -603,7 +627,8 @@ outline-offset: 1px;
   line-height: 1.5294717647;
   font-weight: 400;
   letter-spacing: -0.021em;
-  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial","sans-serif";
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", "sans-serif";
   color: #333;
   font-style: normal;
 }
@@ -611,8 +636,8 @@ outline-offset: 1px;
   margin-bottom: 17px;
 }
 .bewarwp a:focus {
-  outline: 3px solid rgba(131,192,253,0.5);
-outline-offset: 1px;
+  outline: 3px solid rgba(131, 192, 253, 0.5);
+  outline-offset: 1px;
 }
 .wanthr hr {
   margin-top: 48px;
@@ -624,8 +649,8 @@ outline-offset: 1px;
   margin-top: 48px;
 }
 .bei img {
-  width:200px ;
-  height:140px ;
+  width: 200px;
+  height: 140px;
   margin-bottom: 17px;
 }
 .bep {
@@ -636,44 +661,47 @@ outline-offset: 1px;
   flex-flow: column;
 }
 .bep a:focus {
-  outline: 3px solid rgba(131,192,253,0.5);
-outline-offset: 1px;
+  outline: 3px solid rgba(131, 192, 253, 0.5);
+  outline-offset: 1px;
 }
 .bep h3 {
   margin-left: 0;
   margin-right: 0;
-  margin-top: .5rem;
-  margin-bottom: .5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
   font-size: 32px;
   line-height: 1.09375;
   font-weight: 500;
-  letter-spacing: .011em;
-  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial","sans-serif";
+  letter-spacing: 0.011em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", "sans-serif";
 }
 .exchange {
   margin-top: 48px;
   padding-bottom: 74px;
   display: flex;
   flex-flow: column;
-text-align:center;
+  text-align: center;
 }
 .exchange h2 {
   font-size: 24px;
-line-height: 1.2084933333;
-font-weight: 500;
-letter-spacing: .015em;
-font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial","sans-serif";
-padding-bottom: 13px;
-margin-bottom: 0;
+  line-height: 1.2084933333;
+  font-weight: 500;
+  letter-spacing: 0.015em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", "sans-serif";
+  padding-bottom: 13px;
+  margin-bottom: 0;
 }
 .exchange li {
   margin-top: 12px;
   font-size: 17px;
-line-height: 1.5294717647;
-font-weight: 400;
-letter-spacing: -0.021em;
-font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial","sans-serif";
-line-height: 1.5295;
+  line-height: 1.5294717647;
+  font-weight: 400;
+  letter-spacing: -0.021em;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", "sans-serif";
+  line-height: 1.5295;
 }
 .exchange ul {
   list-style: none;
@@ -683,30 +711,42 @@ line-height: 1.5295;
   color: #0070c9;
 }
 .exchange a:focus {
-  outline: 3px solid rgba(131,192,253,0.5);
-outline-offset: 1px;
+  outline: 3px solid rgba(131, 192, 253, 0.5);
+  outline-offset: 1px;
 }
 .footerbg {
   background-color: #f2f2f2;
 }
-#footernav1 a ,#footernav2 a ,#footernav3 a ,#footernav4 a {
+#footernav1 a,
+#footernav2 a,
+#footernav3 a,
+#footernav4 a {
   padding: 0px;
   font-size: 11px;
   letter-spacing: normal;
 }
-#footernav1 ,#footernav2 ,#footernav3 ,#footernav4 {
-  width:245px ;
-margin: 0px;
-padding: 0px;
+#footernav1,
+#footernav2,
+#footernav3,
+#footernav4 {
+  width: 245px;
+  margin: 0px;
+  padding: 0px;
 }
-#footernav1 ul ,#footernav2 ul ,#footernav3 ul ,#footernav4 ul {
+#footernav1 ul,
+#footernav2 ul,
+#footernav3 ul,
+#footernav4 ul {
   height: 190px;
 }
-#navfooter1 , #navfooter2 , #navfooter3 , #navfooter4 {
+#navfooter1,
+#navfooter2,
+#navfooter3,
+#navfooter4 {
   flex-direction: column;
 }
 .footerbg {
-  width:73% ;
+  width: 73%;
   margin: 0 auto;
 }
 .footerbg p {
@@ -715,15 +755,16 @@ padding: 0px;
   margin-bottom: 0px;
 }
 .footera {
-  background-color: #f2f2f2; 
+  background-color: #f2f2f2;
 }
 .footersec {
-  width:100% ;
+  width: 100%;
   padding-top: 20px;
   padding-bottom: 24px;
   display: flex;
 }
-.footersec a , .footersec p {
+.footersec a,
+.footersec p {
   font-size: 11px;
   letter-spacing: normal;
 }
@@ -731,7 +772,7 @@ padding: 0px;
   justify-content: end;
 }
 .footersec a {
-  border-left:1px solid  rgba(199, 193, 193, 0.98); 
+  border-left: 1px solid rgba(199, 193, 193, 0.98);
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -740,17 +781,16 @@ padding: 0px;
   padding-bottom: 0px;
 }
 .divsection {
-  width:100% ;
+  width: 100%;
   display: flex;
-  border-top: 1px solid  rgba(199, 193, 193, 0.98);
-
+  border-top: 1px solid rgba(199, 193, 193, 0.98);
 }
 .bonone {
   border: none !important;
 }
 .footera li a:focus {
-  outline: 3px solid rgba(131,192,253,0.5);
-outline-offset: 1px;
+  outline: 3px solid rgba(131, 192, 253, 0.5);
+  outline-offset: 1px;
 }
 .footera li {
   margin-bottom: 2px;
@@ -758,7 +798,8 @@ outline-offset: 1px;
 .footera li a span:hover {
   border-bottom: 1px solid black;
 }
-.footera li a , .divsection a {
+.footera li a,
+.divsection a {
   color: rgb(72, 73, 73);
 }
 .lifirstspan {
