@@ -217,14 +217,30 @@
   #footer {
     flex-flow: column;
   }
-  #footernav1 , #footernav2 , #footernav3 , #footernav4 {
-    margin-top: 10px;
-    margin-bottom: 10px;
+  #footernav1,
+  #footernav2,
+  #footernav3,
+  #footernav4 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
     border-bottom: 1px solid rgb(51, 50, 50);
     width: 100%;
   }
-  #footernav1 button , #footernav2 button , #footernav3 button , #footernav4 button {
+  #footernav1 button,
+  #footernav2 button,
+  #footernav3 button,
+  #footernav4 button {
     padding-left: 0px;
+  }
+  .lifirstspan {
+    display: none;
+  }
+  #footernav1 ul,
+  #footernav2 ul,
+  #footernav3 ul,
+  #footernav4 ul {
+    height: 100%;
   }
 }
 @media screen and (max-width: 724px) {
